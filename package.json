@@ -3,6 +3,10 @@
     "version": "1.0.0",
     "private": true,
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/soundgym/dev-configs.git"
+    },
     "scripts": {
         "patch": "lerna version patch",
         "fix:prettier": "prettier --write \"packages/**/*.js\""
@@ -24,8 +28,5 @@
     "workspaces": [
         "packages/*"
     ],
-    "prettier": "./packages/prettier-config/js",
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
-    }
+    "prettier": "./packages/prettier-config/js"
 }
