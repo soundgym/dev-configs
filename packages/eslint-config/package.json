@@ -3,6 +3,11 @@
   "author": "Bang9 <gusrn1423@naver.com>",
   "version": "1.0.1",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soundgym/dev-configs.git",
+    "directory": "packages/eslint-config"
+  },
   "main": "ts.node/index.js",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.28.3",
@@ -17,5 +22,5 @@
   "devDependencies": {
     "prettier": "^2.3.2"
   },
-  "gitHead": "96879c3073313160ca43037b37fdfd02dd0f7953"
+  "gitHead": "b29bd8f3079e11ff6ee23055e0c0f3f7a410cd80"
 }
