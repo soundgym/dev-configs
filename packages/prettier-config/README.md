@@ -1,4 +1,4 @@
-# ESLint configuration
+# Prettier configuration
 
 ## Installation
 ```sh
