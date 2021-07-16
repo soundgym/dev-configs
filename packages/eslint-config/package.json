@@ -1,6 +1,8 @@
 {
+  "private": true,
   "name": "@soundgym/eslint-config",
-  "version": "1.0.0",
+  "author": "Bang9 <gusrn1423@naver.com>",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "ts.node/index.js",
   "peerDependencies": {

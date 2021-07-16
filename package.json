@@ -1,24 +1,27 @@
 {
-  "name": "dev-configs",
-  "version": "1.0.0",
-  "private": true,
-  "main": "packages/eslint-config/ts.node/index.js",
-  "license": "MIT",
-  "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.28.3",
-    "@typescript-eslint/parser": "^4.28.3",
-    "eslint": ">=7",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.3.2",
-    "typescript": "^4.3.5"
-  },
-  "devDependencies": {
-    "lerna": "^3.22.1",
-    "prettier": "^2.3.2"
-  },
-  "workspaces": [
-    "packages/*"
-  ]
+    "name": "dev-configs",
+    "version": "1.0.0",
+    "private": true,
+    "license": "MIT",
+    "scripts": {
+        "fix:prettier": "prettier --write \"packages/**/*.js\""
+    },
+    "peerDependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.28.3",
+        "@typescript-eslint/parser": "^4.28.3",
+        "eslint": ">=7",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-react": "^7.24.0",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "prettier": "^2.3.2",
+        "typescript": "^4.3.5"
+    },
+    "devDependencies": {
+        "lerna": "^3.22.1",
+        "prettier": "^2.3.2"
+    },
+    "workspaces": [
+        "packages/*"
+    ],
+    "prettier": "./packages/prettier-config/js"
 }

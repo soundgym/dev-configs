@@ -7,3 +7,7 @@
 
 버전 업
 - lerna version patch
+
+배포
+- lerna publish from-package (npm 레지스트리 버전과 비교 후 배포)
+- lerna publish from-git (깃 태그에 포함된 소스 패키지 배포)
