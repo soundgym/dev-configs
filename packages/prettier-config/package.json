@@ -1,7 +1,7 @@
 {
   "name": "@soundgym/prettier-config",
   "author": "Bang9 <gusrn1423@naver.com>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "ts/index.js",
   "peerDependencies": {
