@@ -24,5 +24,8 @@
     "workspaces": [
         "packages/*"
     ],
-    "prettier": "./packages/prettier-config/js"
+    "prettier": "./packages/prettier-config/js",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    }
 }
