@@ -1,0 +1,19 @@
+{
+  "name": "@soundgym/eslint-config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "ts.node/index.js",
+  "peerDependencies": {
+    "eslint": ">=7",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
