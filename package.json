@@ -4,6 +4,7 @@
     "private": true,
     "license": "MIT",
     "scripts": {
+        "patch": "lerna version patch",
         "fix:prettier": "prettier --write \"packages/**/*.js\""
     },
     "peerDependencies": {
