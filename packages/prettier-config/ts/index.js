@@ -5,8 +5,8 @@ module.exports = {
   bracketSpacing: true,
   semi: true,
   useTabs: false,
-  arrowParens: "avoid",
-  endOfLine: "auto",
+  arrowParens: 'avoid',
+  endOfLine: 'auto',
   jsxBracketSameLine: false,
-  trailingComma: "none"
+  trailingComma: 'none'
 };
